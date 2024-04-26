@@ -1,0 +1,15 @@
+prom_port: 9090
+
+dropbox_app_key: "xxx"
+dropbox_app_secret: "xxx"
+dropbox_refresh_token: "xxx"
+webcam_path: '/Users/XXX/images/'
+webcam_prefix: 'image_'
+webcam_index: 0
+webcam_dropbox_fn: "/image.jpg"  # leading slash required
+webcam_time_prefix_string: "Webcam image prefix: "
+
+weather_path: '/Users/XXX/weather/'
+weather_url: 'http://xxx.xxx.xxx.xxx/weather.html'
+weather_dropbox_fn: "/weather.jpg"  # leading slash required
+
