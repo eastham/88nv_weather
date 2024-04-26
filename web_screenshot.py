@@ -5,8 +5,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
-URL = "https://dyacon.net/station.php?pid=ed10ad82e14ab7357d3ab2eadbb30b5b#_ABSTRACT_RENDERER_ID_20"
-
 def screenshot_to_file(url, fn):
     """Render the page at url and write it to fn."""
     # set up the chrome driver
@@ -40,4 +38,4 @@ def screenshot_to_file(url, fn):
     driver.quit()
 
 if __name__ == "__main__":
-    screenshot_to_file(URL, "weather.png")
+    screenshot_to_file(os.argv[1], "weather.png")
