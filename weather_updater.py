@@ -78,7 +78,7 @@ class weather_updater:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-t", "--time_delay", type=int,
-                        help="Time delay between loops in seconds", default=1)
+                        help="Time delay between loops in seconds", default=60)
     args = parser.parse_args()
     wg = weather_updater()
 
